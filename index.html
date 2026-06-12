@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Universe</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fond étoiles -->
+    <canvas id="stars"></canvas>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">IA Universe</div>
+
+        <nav>
+            <a href="#home">Accueil</a>
+            <a href="#popular">IA Populaires/a>
+            <a href="#cyber">Explorer</a>
+            <a href="#about">À propos</a>
+        </nav>
+    </header>
+
+    <!-- Accueil -->
+    <section class="hero">
+
+        <h1>
+            Découvrez le monde de
+            <span>l'Intelligence Artificielle</span>
+        </h1>
+
+        <p>
+            Explorez les technologies qui révolutionnent notre société,
+            découvrez les entreprises majeures de l'IA et comprenez
+            comment ces systèmes fonctionnent.
+        </p>
+
+        <!-- IMPORTANT -->
+        <button id="exploreBtn" class="btn-glow">
+            Explorer les IA
+        </button>
+
+    </section>
+
+    <!-- SECTION CIBLE -->
+    <section id="popular">
+
+        <h2>IA Populaires</h2>
+
+        <div class="grid">
+
+            <div class="box">
+                <h3>ChatGPT</h3>
+                <p>
+                    ChatGPT est une intelligence artificielle conversationnelle développée par OpenAI.
+        Elle est capable de comprendre le langage humain, répondre à des questions,
+        rédiger des textes, aider à programmer et assister les utilisateurs dans de
+        nombreuses tâches du quotidien.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Claude</h3>
+                <p>
+                            Claude est une intelligence artificielle créée par Anthropic.
+        Elle est conçue pour analyser des documents, répondre à des questions complexes
+        et fournir des réponses détaillées tout en mettant l'accent sur la sécurité
+        et la fiabilité des échanges.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Gemini</h3>
+                <p>
+                     Gemini est un modèle d'intelligence artificielle développé par Google.
+        Il peut comprendre et générer du texte, analyser des images,
+        résoudre des problèmes complexes et assister les utilisateurs dans
+        différents domaines grâce à ses capacités multimodales.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+<!-- ENTREPRISES IA -->
+<section id="companies">
+
+    <h2>Entreprises de l’IA</h2>
+
+    <p class="section-text">
+        Les entreprises de l’intelligence artificielle jouent un rôle majeur dans la révolution technologique actuelle.
+        Elles développent des modèles capables d’apprendre, analyser et générer des solutions pour des millions d’utilisateurs dans le monde entier.
+    </p>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>OpenAI</h3>
+            <p>Leader mondial des modèles de langage comme ChatGPT.</p>
+        </div>
+
+        <div class="card">
+            <h3>Anthropic</h3>
+            <p>Entreprise spécialisée dans les IA sûres et contrôlées.</p>
+        </div>
+
+        <div class="card">
+            <h3>Google DeepMind</h3>
+            <p>Recherche avancée en intelligence artificielle et science des données.</p>
+        </div>
+
+        <div class="card">
+            <h3>Meta AI</h3>
+            <p>Développement de modèles open-source et IA pour les réseaux sociaux.</p>
+        </div>
+
+        <div class="card">
+            <h3>Microsoft AI</h3>
+            <p>Intégration de l’IA dans Office, Azure et Windows.</p>
+        </div>
+
+        <div class="card">
+            <h3>NVIDIA</h3>
+            <p>Leader du calcul GPU utilisé pour entraîner les modèles IA.</p>
+        </div>
+
+    </div>
+
+
+
+</body>
+<section id="how-ai">
+
+    <h2>Comment fonctionne l’IA ?</h2>
+
+    <p class="intro">
+        L’intelligence artificielle fonctionne grâce à des modèles mathématiques capables d’apprendre à partir de données.
+        Elle ne “réfléchit” pas comme un humain, mais elle analyse des milliards d’exemples pour prédire la meilleure réponse possible.
+    </p>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>📊 Les données</h3>
+            <p>
+                L’IA a besoin de données pour apprendre. Cela peut être du texte, des images, des vidéos ou du code.
+                Plus les données sont nombreuses et variées, plus le modèle devient précis et performant dans ses réponses.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🧠 Le Machine Learning</h3>
+            <p>
+                Le Machine Learning permet à l’IA d’apprendre automatiquement à partir d’exemples.
+                Elle détecte des patterns dans les données et améliore ses résultats sans être programmée ligne par ligne.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3> 🔗 Les réseaux des neurones</h3>
+            <p>
+                Inspirés du cerveau humain, les réseaux de neurones sont des couches de calcul qui transforment les informations.
+                Ils permettent à l’IA de reconnaître des images, comprendre du langage et générer du contenu.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎯 La prédiction</h3>
+            <p>
+                Une IA ne comprend pas réellement le sens comme un humain.
+                Elle calcule simplement la réponse la plus probable en fonction de ce qu’elle a appris pendant son entraînement.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="cyber">
+
+    <h1>IA & Cybersécurité 🛡️</h1>
+
+    <p>
+        L’intelligence artificielle est devenue un pilier central de la cybersécurité moderne.
+        Dans un monde où les attaques informatiques sont de plus en plus rapides, automatisées et sophistiquées,
+        les systèmes traditionnels ne suffisent plus. L’IA permet aujourd’hui de surveiller, analyser et réagir en temps réel
+        face à des millions d’événements réseau simultanés.
+    </p>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>🔍 Détection avancée des menaces</h3>
+            <p>
+                L’IA analyse en continu les flux de données, les connexions réseau et les comportements utilisateurs.
+                Elle est capable de repérer des signaux faibles invisibles pour l’humain, comme une tentative d’intrusion,
+                un comportement anormal ou une activité suspecte provenant d’un appareil compromis.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>⚡ Réaction automatisée en temps réel</h3>
+            <p>
+                Contrairement aux systèmes classiques qui nécessitent une intervention humaine,
+                les solutions basées sur l’IA peuvent réagir instantanément.
+                Elles bloquent des adresses IP, isolent des machines infectées ou ferment des accès sensibles
+                dès qu’une menace est détectée, réduisant ainsi considérablement les dégâts potentiels.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🧠 Analyse comportementale intelligente</h3>
+            <p>
+                L’IA apprend le comportement normal d’un réseau, d’un utilisateur ou d’un système.
+                Elle construit une “base de normalité” et peut ensuite identifier toute anomalie,
+                même si celle-ci n’a jamais été observée auparavant. Cela permet de détecter des attaques inconnues
+                ou des techniques de piratage nouvelles.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🛡️ Défense évolutive (Machine Learning)</h3>
+            <p>
+                Les systèmes de cybersécurité modernes utilisent le machine learning pour s’améliorer en permanence.
+                Chaque attaque analysée enrichit leur compréhension, ce qui permet de renforcer automatiquement les défenses
+                contre les menaces futures sans intervention humaine directe.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>⚠️ Limites et risques de l’IA</h3>
+            <p>
+                L’IA n’est pas uniquement utilisée pour la défense. Les cybercriminels exploitent également ces technologies
+                pour créer des attaques plus réalistes, comme des emails de phishing très convaincants ou des malwares adaptatifs
+                capables de contourner certaines protections.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🌐 Le futur de la cybersécurité</h3>
+            <p>
+                À l’avenir, la cybersécurité sera largement automatisée. Les systèmes seront capables de s’auto-protéger,
+                de s’adapter en temps réel aux attaques et même d’anticiper certaines menaces avant qu’elles ne se produisent.
+                L’intervention humaine deviendra davantage stratégique que technique.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="ai-web">
+
+    <h1>IA & Développement Web 💻</h1>
+
+    <p>
+        L’intelligence artificielle transforme profondément le développement web moderne.
+        Elle ne se contente plus d’assister les développeurs : elle automatise, optimise et accélère la création de sites,
+        d’applications et de systèmes complets. Aujourd’hui, une grande partie des outils web intègrent déjà de l’IA
+        pour améliorer la productivité et l’expérience utilisateur.
+    </p>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>⚙️ Génération de code automatique</h3>
+            <p>
+                L’IA peut désormais générer du code HTML, CSS, JavaScript ou même backend en quelques secondes.
+                Elle aide les développeurs à créer des interfaces, corriger des bugs ou proposer des solutions optimisées,
+                ce qui accélère énormément le processus de développement.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🚀 Optimisation des performances</h3>
+            <p>
+                Les systèmes intelligents analysent les sites web pour détecter les problèmes de performance,
+                comme les temps de chargement trop longs ou les scripts inefficaces,
+                et proposent des améliorations automatiques pour rendre les sites plus rapides.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🎨 Design assisté par IA</h3>
+            <p>
+                L’IA aide à créer des interfaces modernes et ergonomiques en proposant des layouts,
+                des couleurs harmonieuses et des structures adaptées aux utilisateurs,
+                permettant même à des débutants de concevoir des sites professionnels.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🧠 Expérience utilisateur intelligente</h3>
+            <p>
+                Grâce à l’analyse des comportements utilisateurs, l’IA personnalise les interfaces web en temps réel.
+                Elle peut adapter les contenus, recommandations ou interfaces selon chaque utilisateur pour améliorer l’engagement.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🔒 Sécurité des applications web</h3>
+            <p>
+                L’IA joue également un rôle clé dans la protection des sites web contre les attaques.
+                Elle détecte les comportements suspects, protège les bases de données et renforce la sécurité des connexions.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🌐 Le futur du développement web</h3>
+            <p>
+                Le développement web évolue vers une automatisation complète où l’IA pourra créer des sites entiers à partir d’une simple idée.
+                Les développeurs deviendront davantage des architectes et des superviseurs de systèmes intelligents.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="ai-types">
+
+    <h1>Types d’Intelligence Artificielle 🧠</h1>
+
+    <p>
+        L’intelligence artificielle n’est pas unique. Elle se divise en plusieurs types selon son niveau de capacité,
+        son autonomie et sa complexité. Chaque type représente une étape dans l’évolution des systèmes intelligents,
+        allant des machines simples capables d’exécuter des tâches précises jusqu’aux IA avancées capables d’apprendre et de s’adapter.
+    </p>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>⚙️ IA faible (Narrow AI)</h3>
+            <p>
+                L’IA faible est la forme la plus courante aujourd’hui. Elle est spécialisée dans une seule tâche,
+                comme reconnaître des visages, traduire des langues ou recommander des vidéos.
+                Elle ne possède pas de conscience et ne peut pas sortir de son domaine d’apprentissage.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🧠 IA générale (AGI)</h3>
+            <p>
+                L’IA générale est un type théorique d’intelligence artificielle capable de comprendre, apprendre et raisonner
+                comme un être humain. Elle pourrait effectuer n’importe quelle tâche intellectuelle sans être limitée à un seul domaine.
+                Elle n’existe pas encore aujourd’hui.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🚀 IA super-intelligente</h3>
+            <p>
+                Ce type d’IA dépasse largement les capacités humaines dans tous les domaines :
+                logique, créativité, prise de décision et apprentissage. Elle reste hypothétique et fait l’objet de nombreux débats
+                sur les risques et les impacts futurs.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>📊 IA réactive</h3>
+            <p>
+                Les IA réactives sont les plus simples. Elles ne gardent aucune mémoire et réagissent uniquement aux données présentes.
+                Elles sont utilisées dans des systèmes comme les jeux ou certaines automatisations simples.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🧩 IA à mémoire limitée</h3>
+            <p>
+                Ces IA peuvent utiliser des données passées pour améliorer leurs décisions.
+                Elles sont utilisées dans les voitures autonomes ou les systèmes de recommandation,
+                car elles apprennent à partir de l’expérience récente.
+            </p>
+        </div>
+
+        <div class="cyber-box ">
+            <h3>🌐 IA future hybride</h3>
+            <p>
+                Les IA du futur combineront plusieurs types d’intelligence pour devenir plus flexibles et plus puissantes.
+                Elles pourront s’adapter à différents contextes et apprendre en continu comme un cerveau humain augmenté.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="ai-risks">
+
+    <h1>IA dangereuse & risques ⚠️</h1>
+
+    <p>
+        L’intelligence artificielle apporte énormément d’avantages, mais elle comporte aussi des risques importants.
+        Ces risques ne signifient pas que l’IA est “mauvaise”, mais qu’elle doit être encadrée, contrôlée et utilisée de manière responsable.
+        Sans régulation, certaines utilisations peuvent avoir des conséquences sur la sécurité, la société et l’économie.
+    </p>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>🎭 Désinformation et deepfakes</h3>
+            <p>
+                L’IA peut créer des images, vidéos et voix extrêmement réalistes.
+                Cela peut être utilisé pour diffuser de fausses informations ou manipuler l’opinion publique,
+                ce qui représente un risque majeur pour la société et les médias.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>💻 Cyberattaques automatisées</h3>
+            <p>
+                Les hackers utilisent l’IA pour automatiser des attaques informatiques plus rapides et plus complexes.
+                Cela inclut le phishing intelligent, les malwares adaptatifs et les intrusions ciblées.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>📉 Perte d’emplois</h3>
+            <p>
+                L’automatisation par l’IA peut remplacer certaines tâches humaines,
+                notamment dans les secteurs administratifs, industriels ou créatifs,
+                ce qui entraîne une transformation du marché du travail.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🧠 Dépendance aux systèmes IA</h3>
+            <p>
+                Une utilisation excessive de l’IA peut rendre les humains trop dépendants des systèmes automatisés,
+                réduisant certaines compétences comme la réflexion critique ou la prise de décision indépendante.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>⚠️ Biais et erreurs</h3>
+            <p>
+                Les IA apprennent à partir de données humaines, ce qui peut introduire des biais ou des erreurs.
+                Cela peut conduire à des décisions injustes ou incorrectes dans certains systèmes automatisés.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🌐 Contrôle et régulation</h3>
+            <p>
+                L’un des plus grands défis est de contrôler le développement de l’IA.
+                Les experts travaillent sur des lois et des systèmes de sécurité pour éviter les dérives
+                tout en continuant à innover.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="ai-future">
+
+    <h1>Le futur de l’IA 🌐</h1>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>🚀 2030 — IA omniprésente</h3>
+                <p>
+                    L’IA sera intégrée dans tous les domaines du quotidien :
+                    éducation, santé, transport et travail. Elle deviendra un assistant universel capable d’aider les humains en permanence.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>🏙️ 2035 — Villes intelligentes</h3>
+                <p>
+                    Les villes seront gérées par des systèmes IA capables d’optimiser le trafic, l’énergie et la sécurité en temps réel.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>🧠 2040 — IA proche de l’humain</h3>
+                <p>
+                    Les IA comprendront les émotions et pourront dialoguer de façon presque humaine,
+                    rendant les interactions plus naturelles et personnalisées.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>⚠️ Risques majeurs</h3>
+                <p>
+                    L’augmentation de la puissance des IA pose des questions de sécurité,
+                    de contrôle et d’éthique à l’échelle mondiale.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>🛡️ Régulation mondiale</h3>
+                <p>
+                    Des lois internationales seront nécessaires pour encadrer le développement et l’utilisation de l’IA.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>🌌 2050 — IA avancée</h3>
+                <p>
+                    L’IA pourrait atteindre un niveau proche ou supérieur à l’humain dans de nombreux domaines cognitifs.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="ai-games">
+
+    <h1>IA & Jeux vidéo 🎮</h1>
+
+    <p>
+        L’intelligence artificielle joue un rôle majeur dans l’évolution des jeux vidéo modernes.
+        Elle permet de créer des mondes plus réalistes, des personnages plus intelligents et des expériences de jeu plus immersives.
+        Aujourd’hui, l’IA ne sert plus seulement à rendre les jeux plus difficiles, mais à les rendre vivants et dynamiques.
+    </p>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>🧠 Comportement des PNJ</h3>
+            <p>
+                Les personnages non-joueurs (PNJ) utilisent l’IA pour réagir de manière réaliste aux actions du joueur.
+                Ils peuvent se défendre, fuir, collaborer ou adapter leur stratégie en fonction de la situation.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🎯 Adaptation du niveau de difficulté</h3>
+            <p>
+                L’IA ajuste automatiquement la difficulté du jeu selon le niveau du joueur.
+                Elle analyse ses performances et modifie les défis pour maintenir un équilibre entre plaisir et challenge.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🌍 Mondes dynamiques</h3>
+            <p>
+                Les environnements de jeu peuvent évoluer en temps réel grâce à l’IA.
+                Les événements, les cycles météo ou les interactions changent en fonction des actions du joueur.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🎨 Génération de contenu</h3>
+            <p>
+                L’IA est capable de générer automatiquement des niveaux, des cartes ou des quêtes,
+                ce qui permet de créer des jeux presque infinis avec un contenu toujours renouvelé.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>⚔️ IA ennemie avancée</h3>
+            <p>
+                Les ennemis contrôlés par l’IA ne suivent plus des scripts simples.
+                Ils apprennent, s’adaptent et peuvent anticiper les actions du joueur pour rendre les combats plus stratégiques.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🚀 Futur du gaming</h3>
+            <p>
+                À l’avenir, les jeux vidéo seront entièrement personnalisés par l’IA,
+                avec des histoires uniques pour chaque joueur et des mondes générés en temps réel selon leurs choix.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="ai-jobs">
+
+    <h1>IA & Métiers 💼</h1>
+
+    <p>
+        L’intelligence artificielle transforme profondément le monde du travail.
+        Certains métiers disparaissent ou évoluent, tandis que de nouveaux métiers apparaissent autour de la data, du développement et de la gestion des systèmes intelligents.
+        L’objectif n’est pas de remplacer l’humain, mais de l’augmenter et de l’assister dans ses tâches.
+    </p>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>⚙️ Automatisation des tâches</h3>
+            <p>
+                L’IA automatise les tâches répétitives comme la saisie de données, le traitement de documents ou certaines analyses.
+                Cela permet aux travailleurs de se concentrer sur des tâches plus créatives et stratégiques.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>📊 Nouveaux métiers IA</h3>
+            <p>
+                De nouveaux métiers apparaissent : data scientist, ingénieur IA, expert en machine learning ou spécialiste en éthique de l’IA.
+                Ces métiers sont essentiels pour développer et encadrer les systèmes intelligents.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>💡 Transformation des métiers existants</h3>
+            <p>
+                Les métiers traditionnels évoluent grâce à l’IA.
+                Par exemple, les médecins utilisent l’IA pour analyser des images médicales,
+                et les développeurs utilisent des assistants intelligents pour coder plus rapidement.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="ai-robots">
+
+    <h1>Robots & Intelligence Artificielle 🤖</h1>
+
+    <p>
+        Les robots intelligents combinent intelligence artificielle et mécanique pour interagir avec le monde réel.
+        Ils sont utilisés dans l’industrie, la médecine, l’exploration et même dans la vie quotidienne.
+    </p>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>🏭 Robots industriels</h3>
+            <p>
+                Les robots industriels sont utilisés dans les usines pour assembler, souder ou transporter des objets.
+                Ils travaillent avec une grande précision et sans interruption.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🧑‍⚕️ Robots médicaux</h3>
+            <p>
+                Dans le domaine médical, les robots assistent les chirurgiens pour réaliser des opérations très précises
+                et minimiser les risques pour les patients.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🚗 Robots autonomes</h3>
+            <p>
+                Les voitures autonomes utilisent l’IA pour analyser leur environnement et prendre des décisions en temps réel,
+                comme freiner, accélérer ou éviter des obstacles.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="robot-question">
+
+    <h1>Comment fonctionnent les robots intelligents ? ❓</h1>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>🧠 Réponse</h3>
+            <p>
+                Les robots intelligents fonctionnent grâce à une combinaison de capteurs, de logiciels d’intelligence artificielle et de systèmes mécaniques.
+                Les capteurs leur permettent de percevoir leur environnement (caméras, lasers, microphones),
+                tandis que l’IA analyse ces données pour prendre des décisions.
+                Ensuite, les actionneurs (moteurs, bras mécaniques, roues) exécutent les actions décidées par le système.
+                Cela leur permet d’agir de manière autonome et d’adapter leur comportement en temps réel.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="ai-society">
+
+    <h1>IA & Futur de la société 🌐</h1>
+
+    <p>
+        L’intelligence artificielle va transformer la société dans son ensemble.
+        Elle influence déjà la façon dont nous travaillons, apprenons, communiquons et prenons des décisions.
+        Son impact continuera de croître dans les prochaines décennies.
+    </p>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+            <h3>🏙️ Société automatisée</h3>
+            <p>
+                De nombreuses tâches seront automatisées, ce qui permettra une meilleure efficacité dans les villes,
+                les entreprises et les services publics.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>📚 Éducation personnalisée</h3>
+            <p>
+                L’IA permettra à chaque élève d’avoir un apprentissage adapté à son niveau et à son rythme,
+                rendant l’éducation plus accessible et efficace.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>⚖️ Défis éthiques</h3>
+            <p>
+                L’utilisation massive de l’IA soulève des questions importantes sur la vie privée,
+                la surveillance et l’équilibre entre technologie et liberté humaine.
+            </p>
+        </div>
+
+        <div class="cyber-box">
+            <h3>🌍 Monde connecté</h3>
+            <p>
+                L’IA contribuera à créer un monde plus connecté, où les systèmes communiqueront entre eux
+                pour optimiser les ressources et améliorer la qualité de vie globale.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="page" id="about">
+
+    <h1>À propos 👤</h1>
+
+    <div class="cyber-container">
+
+        <div class="cyber-box">
+
+            <h3>👋 Qui suis-je ?</h3>
+
+            <p>
+                Je suis un jeune développeur passionné par le webdesign, l’intelligence artificielle et la cybersécurité.
+                J’aime créer des projets modernes, expérimenter de nouvelles technologies et comprendre comment fonctionnent les systèmes intelligents.
+            </p>
+
+        </div>
+
+        <div class="cyber-box">
+
+            <h3>🚀 Ma vision</h3>
+
+            <p>
+                Mon objectif est d’apprendre en continu et de développer mes compétences dans le domaine du développement web et de l’IA.
+                Je cherche à progresser en travaillant sur des projets concrets et en explorant de nouvelles idées.
+            </p>
+
+        </div>
+
+        <div class="cyber-box">
+
+            <h3>💼 Collaboration</h3>
+
+            <p>
+                Si vous avez besoin d’aide pour créer un site web, un projet numérique ou si vous souhaitez m’apprendre de nouvelles choses,
+                n’hésitez pas à me contacter.
+            </p>
+
+            <p style="margin-top:10px;">
+                📧 Email : <strong>nateoiapro@gmail.com</strong>
+            </p>
+
+        </div>
+
+    </div>
+    <section id="end-universe" class="end-section">
+
+    <div class="robot-end">🤖</div>
+
+    <h2 class="thank-you">THANK YOU</h2>
+
+    <p class="end-text">END OF IA UNIVERSE</p>
+
+</section>
+</section>
+</html>
